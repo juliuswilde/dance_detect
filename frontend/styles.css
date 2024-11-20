@@ -1,0 +1,24 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    color: aliceblue;
+    background-color: #3b4047;
+}
+
+a {
+    color: aliceblue;
+    font-style: italic;
+}
+
+footer {
+    font-size: small;
+    background-color: #2b2e33;
+}
+
+#footer_github {
+    height: auto;
+    width: 50px;
+    filter: invert();
+}
