@@ -45,15 +45,69 @@ a {
 
 #page_content {
     margin: 0px;
-    padding-top: 2vh;
+    padding-top: 4vh;
     width: 100%;
     text-align: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+}
+
+#spectrogram_container {
+    width: 40vh;
+    border: 0.25rem solid aliceblue;
+    flex: 1;
+}
+
+#spectrogram_container img {
+    width: 100%;
+}
+
+#control_panel_container {
+    display: flex;
+    flex: 1;
+    width: 40vh;
+    gap: 4vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+}
+
+#control_panel_container img {
+    height: 100%;
+}
+
+#listen_button {
+    flex: 1;
+    border: 0.25rem solid aliceblue;
+    font-size: large;
+    background-color: #2b2e33;
+}
+
+#listen_button p {
+    vertical-align: middle;
+    line-height: 4vh;
+}
+
+#listen_icon {
+    filter: invert();
+    height: 4vh;
 }
 
 .page_text {
     flex: 1;
-    width: 80%;
+    width: 100%;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+#page_content h2 {
+    margin-bottom: 1vh;
+}
+
+.page_text img {
+    width: 40vh;
+    filter: invert();
 }
 
 #page_content h2 {
@@ -62,6 +116,22 @@ a {
 
 #page_content p {
     font-size: 2vh;
+}
+
+#changelog {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    gap: 3vh;
+}
+
+.change {
+    flex: 1;
+}
+
+.change h3 {
+    font-size: 2.5vh;
 }
 
 footer {
@@ -84,6 +154,8 @@ footer div {
     text-align: center;
     vertical-align: middle;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 100%;
     flex: 1;
 }
